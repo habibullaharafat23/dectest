@@ -287,6 +287,25 @@ body {
     row-gap: 10px;
     padding-bottom: 10px;
   }
+  
+
+
+  .accept-btn {
+    width: 20px;
+    border-radius:20px;
+    padding: 15px 20px;
+    position:center;
+    
+    background:#d74117;
+    transition: box-shadow 0.3s;
+    border: 1px solid var(--olive);
+    font-family: var(--font);
+    font-size: 14px;
+    color: white;
+  }
+
+
+
 }
 
 .ConsentSwitch {
@@ -446,12 +465,39 @@ span.sec3Content.watermark a {
     padding: 5px 0px;
   }
 
+  
+  
+  .action-btn, .accept-btn {
+    width: 50%; /* Take up most of the mobile screen width */
+    max-width: 280px; /* Optional: prevent excessive width */
+    padding: 12px 20px; /* Adjust padding for smaller devices */
+    font-size: 16px; /* Improve readability on mobile */
+    margin: -10px auto; /* Add space between buttons and center them */
+    margin-right: 20px;
+    text-align: center; /* Ensure text stays centered */
+  }
+  .action-btn {
+    background-color: var(--white);
+    border: 1px solid var(--olive);
+    
+  }
+
+  .accept-btn {
+    background-color: #d74117; /* Red background for Accept button */
+    color: white; /* Ensure good contrast */
+  }
+
+
+
+
+
   .consent-content-area {
     width: 100%;
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
 
   .consent-action-footer,
@@ -461,11 +507,26 @@ span.sec3Content.watermark a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
   }
+
+
+  .accept-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+
   .action-btn {
-    width: 100px;
+    width: 50%;
+    max-width: 300px;
     border-radius: 50px;
     display: inline;
+   
+    font-size: 10px;
   }
   .section-container {
     padding: 0 25px;
@@ -483,7 +544,14 @@ span.sec3Content.watermark a {
     border: 1px solid #fff;
   }
 }
-
+@media screen and (min-width: 451px) {
+  .action-btn, .accept-btn {
+    width: 200px; /* Restore the original width for larger screens */
+    padding: 12px 0; /* Restore original padding */
+    font-size: 14px; /* Restore original font size */
+    margin: 0px; /* Remove mobile-specific margin */
+  }
+}
 @media screen and (max-width: 885px) {
   .consent-banner-wrapper {
     width: 100%;
