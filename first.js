@@ -144,10 +144,10 @@ consentdiv.innerHTML = `
     </div>
   <div class=consent-action-footer>
     <div class=action-buttons id=consentActionButtons>
-      <button action="accept" class="accept-btn active" id=acceptConsentButton>ACCEPT</button>
+      <button action="accept" class="accept-btn active" id=acceptConsentButton>ACCEPTEREN</button>
 
       <button action="reject" class="action-btn" id="rejectConsentButton" style="display:none">REJECT</button>
-      <button action="preference" class="action-btn bg-color" id="preferenceConsentButton">Cookie Settings</button>
+      <button action="preference" class="action-btn bg-color" id="preferenceConsentButton">Cookie-instellingen</button>
     </div>
   </div>
   </div>
