@@ -473,7 +473,7 @@ span.sec3Content.watermark a {
     width: 50%; /* Take up most of the mobile screen width */
     max-width: 280px; /* Optional: prevent excessive width */
     padding: 12px 20px; /* Adjust padding for smaller devices */
-    font-size: 16px; /* Improve readability on mobile */
+    font-size: 10px; /* Improve readability on mobile */
     margin: -10px auto; /* Add space between buttons and center them */
     margin-right: 20px;
     text-align: center; /* Ensure text stays centered */
