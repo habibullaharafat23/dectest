@@ -252,6 +252,7 @@ body {
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px 0 inset;
   padding-top: 25px;
+  text-align: center;
 }
 
 #detailsSection {
