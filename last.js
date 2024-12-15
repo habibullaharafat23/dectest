@@ -31,6 +31,7 @@ miniConsentBanner.onclick = () => {
   }
 };
 
+
 // Default cookie state
 const defaultState = {
   ad_storage: "denied",
