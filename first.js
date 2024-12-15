@@ -11,7 +11,7 @@ document.getElementsByTagName("head")[0].appendChild(link);
 var link = document.createElement("link");
 link.type = "text/css";
 link.rel = "stylesheet";
-link.href ="https://cdn.jsdelivr.net/gh/habibullaharafat23/dectest@1f81773ab48002045fd84cc5bbb708eb1564c305/style.css";
+link.href ="https://cdn.jsdelivr.net/gh/habibullaharafat23/dectest@9ab0d69d814250e065fe2b02b2332e52171b5b76/style.css";
 //link.href = "style.css";
 document.getElementsByTagName("head")[0].appendChild(link);
 
