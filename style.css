@@ -469,11 +469,11 @@ span.sec3Content.watermark a {
 
 
   
- .action-btn, .accept-btn {
+.action-btn, .accept-btn {
     width: 40%; /* Take up most of the mobile screen width */
     max-width: 150px; /* Optional: prevent excessive width */
-    padding: 16px 20px; /* Adjust padding for smaller devices */
-    font-size: 12px; /* Improve readability on mobile */
+    padding: 13px 20px; /* Adjust padding for smaller devices */
+    font-size: 10px; /* Improve readability on mobile */
     margin: -10px auto; /* Add space between buttons and center them */
     margin-right: 20px;
     padding-left: 30px;
