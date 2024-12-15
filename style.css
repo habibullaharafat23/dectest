@@ -26,6 +26,7 @@ body {
   background: var(--background);
 }
 
+
 .consent-headlines {
   font-size: clamp(14px, 2vw, 15px);
   font-weight: 600;
