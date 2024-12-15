@@ -33,13 +33,13 @@ miniConsentBanner.onclick = () => {
 
 // Default cookie state
 const defaultState = {
-  ad_storage: "granted",
-  ad_user_data: "granted",
-  ad_personalization: "granted",
-  analytics_storage: "granted",
-  functionality_storage: "granted",
-  personalization_storage: "granted",
-  security_storage: "granted",
+  ad_storage: "denied",
+  ad_user_data: "denied",
+  ad_personalization: "denied",
+  analytics_storage: "denied",
+  functionality_storage: "denied",
+  personalization_storage: "denied",
+  security_storage: "denied",
 };
 
 // Check first visit and update consent banner
