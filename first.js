@@ -148,7 +148,7 @@ consentdiv.innerHTML = `
 
       <button action="reject" class="action-btn" id="rejectConsentButton" style="display:none">REJECT</button>
 
- <button action="preference" class="action-btn bg-color" id="preferenceConsentButton"></button>
+ <button action="preference" class="action-btn bg-color" id="preferenceConsentButton">Cookie-instellingen</button>
 
     
      
