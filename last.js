@@ -95,7 +95,7 @@ acceptConsentButton.onclick = () => {
     .querySelectorAll(".section-content")
     .forEach((element) => (element.style.display = "none"));
   consentSection.style.display = "block";
-  document.getElementById("preferenceConsentButton").innerText = "Cookie Settings ";
+  document.getElementById("preferenceConsentButton").innerText = "Cookie Instellingen";
   // document.getElementsByClassName(
   //   "consent-content-area"
   // )[0].style.flexDirection = "row";
