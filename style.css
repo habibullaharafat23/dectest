@@ -470,14 +470,14 @@ span.sec3Content.watermark a {
 
   
 .action-btn, .accept-btn {
-    width: 40%; /* Take up most of the mobile screen width */
-    max-width: 150px; /* Optional: prevent excessive width */
-    padding: 13px 20px; /* Adjust padding for smaller devices */
+    width: 50%; /* Take up most of the mobile screen width */
+    max-width: 280px; /* Optional: prevent excessive width */
+    padding: 12px 20px; /* Adjust padding for smaller devices */
     font-size: 10px; /* Improve readability on mobile */
     margin: -10px auto; /* Add space between buttons and center them */
     margin-right: 20px;
-    padding-left: 30px;
-    text-align: center !important; /* Ensure text stays centered */
+    
+    text-align: center; /* Ensure text stays centered */
   }
   
   .action-btn {
