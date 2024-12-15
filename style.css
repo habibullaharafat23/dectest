@@ -26,7 +26,6 @@ body {
   background: var(--background);
 }
 
-
 .consent-headlines {
   font-size: clamp(14px, 2vw, 15px);
   font-weight: 600;
@@ -256,7 +255,6 @@ body {
   text-align: center;
 }
 
-
 #detailsSection {
   height: 30vh;
   overflow: hidden scroll;
@@ -406,6 +404,13 @@ div#consentSection {
   column-gap: 5px;
 }
 
+.test {
+    
+    width: 180px !important;
+    font-size: 13px !important;
+}
+
+
 .inputDisable:checked + .ConsentSlider {
   background-color: #74bcf7;
 }
@@ -468,33 +473,39 @@ span.sec3Content.watermark a {
     padding: 5px 0px;
   }
 
-
+  .test {
+     font-size: 10px !important;
+    width: 200px !important;
+}
   
-.action-btn, .accept-btn {
-    width: 50%; /* Take up most of the mobile screen width */
-    max-width: 280px; /* Optional: prevent excessive width */
-    padding: 12px 20px; /* Adjust padding for smaller devices */
+  .action-btn, .accept-btn {
+    width: 100%; /* Take up most of the mobile screen width */
+    max-width: 150px; /* Optional: prevent excessive width */
+    padding: 13px 20px; /* Adjust padding for smaller devices */
     font-size: 10px; /* Improve readability on mobile */
     margin: -10px auto; /* Add space between buttons and center them */
-    margin-right: 20px;
+    margin-right: 2px;
+    padding-left: 30px;
+    text-align: center !important; /* Ensure text stays centered */
     
-    text-align: center; /* Ensure text stays centered */
   }
-  
   .action-btn {
     background-color: var(--white);
     border: 1px solid var(--olive);
+    
     
   }
 
   .accept-btn {
     background-color: #d74117; /* Red background for Accept button */
     color: white; /* Ensure good contrast */
+    
+    
+    
   }
 
 
-
-
+   
 
   .consent-content-area {
     width: 100%;
@@ -502,7 +513,7 @@ span.sec3Content.watermark a {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+     
   }
 
   .consent-action-footer,
@@ -522,16 +533,17 @@ span.sec3Content.watermark a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
   
   }
 
   .action-btn {
-    width: 50%;
-    max-width: 300px;
+    width: 100%;
+    max-width: 1000px;
     border-radius: 50px;
     display: inline;
    
-    font-size: 10px;
+    font-size: 9px;
   }
   .section-container {
     padding: 0 25px;
@@ -542,21 +554,14 @@ span.sec3Content.watermark a {
   .section-container a {
     color: #fff;
   }
-
+   
   .bg-color {
     background-color: transparent;
     color: #fff;
     border: 1px solid #fff;
   }
 }
-@media screen and (min-width: 451px) {
-  .action-btn, .accept-btn {
-    width: 200px; /* Restore the original width for larger screens */
-    padding: 12px 0; /* Restore original padding */
-    font-size: 14px; /* Restore original font size */
-    margin: 0px; /* Remove mobile-specific margin */
-  }
-}
+
 @media screen and (max-width: 885px) {
   .consent-banner-wrapper {
     width: 100%;
