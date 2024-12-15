@@ -11,7 +11,7 @@ document.getElementsByTagName("head")[0].appendChild(link);
 var link = document.createElement("link");
 link.type = "text/css";
 link.rel = "stylesheet";
-link.href ="https://cdn.jsdelivr.net/gh/habibullaharafat23/dectest@762e89f58d79958d2b883404364b1c560be9673e/style.css";
+link.href ="https://cdn.jsdelivr.net/gh/habibullaharafat23/dectest@6d4bfecfec6492ac6842baa28535433ef192c13f/style.css";
 //link.href = "style.css";
 document.getElementsByTagName("head")[0].appendChild(link);
 
@@ -148,7 +148,7 @@ consentdiv.innerHTML = `
 
       <button action="reject" class="action-btn" id="rejectConsentButton" style="display:none">REJECT</button>
 
-<button action="preference" class="bg-color" id="preferenceConsentButton" style="width: 120px;text-align: center;font-size: 10px; padding: 10px 40px;padding-left: 30px;border-radius: 20px;">Cookie-instellingen</button>
+ <button action="preference" class="action-btn bg-color" id="preferenceConsentButton"></button>
 
     
      
