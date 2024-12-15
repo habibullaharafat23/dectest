@@ -479,6 +479,7 @@ span.sec3Content.watermark a {
     padding-left: 30px;
     text-align: center !important; /* Ensure text stays centered */
   }
+  
   .action-btn {
     background-color: var(--white);
     border: 1px solid var(--olive);
