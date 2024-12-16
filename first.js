@@ -36,7 +36,7 @@ consentdiv.innerHTML = `
 
     <div class="section-container">
       <div class="section-content active-section-content" id="consentSection">
-        <p class="consent-descriptions">We gebruiken cookies om inhoud en advertenties te personaliseren, functies voor sociale media aan te bieden en ons verkeer te analyseren. We delen ook informatie over uw gebruik van onze website met onze sociale media-, advertentie- en analysepartners, die deze kunnen combineren met andere informatie die u aan hen hebt verstrekt of die zij hebben verzameld door uw gebruik van hun diensten.<a href="https://ai-pioneers.nl/privacy-policy" target="_blank"><a/></p>
+        <p class="consent-descriptions">We gebruiken cookies om inhoud en advertenties te personaliseren, functies voor sociale media aan te bieden en ons verkeer te analyseren. We delen ook informatie over uw gebruik van onze website met onze sociale media-, advertentie- en analysepartners, die deze kunnen combineren met andere informatie die u aan hen hebt verstrekt of die zij hebben verzameld door uw gebruik van hun diensten.<a href="https://ai-pioneers.nl/privacy-policy" target="_blank">privacy-policy<a/></p>
       </div>
       <div class="section-content" style="display:none" id="detailsSection">
         <div class="cookie-detail-wrapper necessaryCookies">
